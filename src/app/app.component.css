@@ -1,0 +1,28 @@
+.container {
+  margin: 20px;
+}
+
+.coach {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  line-height: 40px;
+  background-color: lightgreen;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.booked {
+  background-color: red;
+  color: white;
+}
